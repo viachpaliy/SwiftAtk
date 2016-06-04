@@ -1,1 +1,0 @@
-s/GObject.SignalEmissionHook/SignalEmissionHook/g
