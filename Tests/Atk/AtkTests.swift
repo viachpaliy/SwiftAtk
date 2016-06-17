@@ -4,7 +4,7 @@ import XCTest
 class AtkTests: XCTestCase {
 
     func testTextAttribute() {
-        guard let name = text_attribute_get_name(attr: .left_margin) else { XCTFail() ; return }
+        guard let name = textAttributeGetName(attr: .left_margin) else { XCTFail() ; return }
         XCTAssertEqual(name, "left-margin")
     }
 
