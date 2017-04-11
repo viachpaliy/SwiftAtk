@@ -1,5 +1,5 @@
 import CGLib
 import CAtk
 import GLib
-import GObject
+import GLibObject
 

@@ -1,5 +1,6 @@
-s/public protocol ObjectProtocol: ObjectProtocol/public protocol ObjectProtocol: GObject.ObjectProtocol/
-s/open class Object: Object/open class Object: GObject.Object/
+s/public protocol ObjectProtocol: ObjectProtocol/public protocol ObjectProtocol: GLibObject.ObjectProtocol/
+s/open class Object: Object/open class Object: GLibObject.Object/
+s/GObject.SignalEmissionHook/GLibObject.SignalEmissionHook/g
 s/: \([A-Za-z.]*Notify[,)]\)/: @escaping \1/g
 s/: \([A-Za-z.]*Func[,)]\)/: @escaping \1/g
 s/: \([A-Za-z.]*Marshal[,)]\)/: @escaping \1/g

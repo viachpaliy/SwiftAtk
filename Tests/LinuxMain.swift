@@ -1,5 +1,5 @@
 import XCTest
-@testable import AtkTestSuite
+@testable import AtkTests
 
 XCTMain([
 	 testCase(AtkTests.allTests),
