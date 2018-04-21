@@ -6,5 +6,5 @@ let package = Package(
         .Package(url: "https://github.com/rhx/CAtk.git", majorVersion: 1),
         .Package(url: "https://github.com/rhx/SwiftGObject.git", majorVersion: 2)
     ],
-    swiftLanguageVersions: [3]
+    swiftLanguageVersions: [3, 4]
 )
